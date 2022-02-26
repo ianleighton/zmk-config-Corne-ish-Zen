@@ -59,11 +59,13 @@
         };
     combos {
         compatible = "zmk,combos";
+        //ção combo
         combo_cao {
             timeout-ms = <50>;
             key-positions = <27 9>;
             bindings = <&kp LA(C) LA(N) A O>;
         };
+        // some modifiers
         combo_esc {
             timeout-ms = <50>;
             key-positions = <0 1>;
@@ -73,6 +75,57 @@
             timeout-ms = <50>;
             key-positions = <21 22>;
             bindings = <&kp RET>;
-        }
+        };
+        // try out some vertical combos
+        combo_1 {
+            timeout-ms = <50>;
+            key-positions = <1 13>;
+            bindings = <&kp N1>;
+        };
+        combo_2 {
+            timeout-ms = <50>;
+            key-positions = <2 14>;
+            bindings = <&kp N2>;
+        };
+        combo_3 {
+            timeout-ms = <50>;
+            key-positions = <3 15>;
+            bindings = <&kp N3>;
+        };
+        combo_4 {
+            timeout-ms = <50>;
+            key-positions = <4 16>;
+            bindings = <&kp N4>;
+        };
+        combo_5 {
+            timeout-ms = <50>;
+            key-positions = <5 17>;
+            bindings = <&kp N5>;
+        };
+        combo_6 {
+            timeout-ms = <50>;
+            key-positions = <6 18>;
+            bindings = <&kp N6>;
+        };
+        combo_7 {
+            timeout-ms = <50>;
+            key-positions = <7 19>;
+            bindings = <&kp N7>;
+        };
+        combo_8 {
+            timeout-ms = <50>;
+            key-positions = <8 20>;
+            bindings = <&kp N8>;
+        };
+        combo_9 {
+            timeout-ms = <50>;
+            key-positions = <9 21>;
+            bindings = <&kp N9>;
+        };
+        combo_0 {
+            timeout-ms = <50>;
+            key-positions = <10 22>;
+            bindings = <&kp N0>;
+        };
     };
 };
