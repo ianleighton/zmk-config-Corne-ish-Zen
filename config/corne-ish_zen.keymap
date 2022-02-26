@@ -62,12 +62,17 @@
         combo_cao {
             timeout-ms = <50>;
             key-positions = <27 9>;
-            bindings = <&kp LA(C) &kp LA(N) &kp A &kp O>;
+            bindings = <&kp LA(C) LA(N) A O>;
         };
         combo_esc {
             timeout-ms = <50>;
             key-positions = <0 1>;
             bindings = <&kp ESC>;
         };
+        combo_enter {
+            timeout-ms = <50>;
+            key-positions = <21 22>;
+            bindings = <&kp RET>;
+        }
     };
 };
