@@ -111,15 +111,15 @@ combos {
             key-positions = <20 32>;
             bindings = <&kp EQUAL>;
         };
-        combo_leftbrace {
+        combo_leftbracket {
             timeout-ms = <50>;
             key-positions = <21 33>;
-            bindings = <&kp LBRC>;
+            bindings = <&kp LBKT>;
         };
-        combo_rightbrace {
+        combo_rightbracket {
             timeout-ms = <50>;
             key-positions = <22 34>;
-            bindings = <&kp RBRC>;
+            bindings = <&kp RBKT>;
         };
         combo_layerlock {
             timeout-ms = <50>;
