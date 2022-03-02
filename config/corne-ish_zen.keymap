@@ -10,6 +10,11 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
+
+//  combos {
+//    #include "combos.dtsi"
+//  };
+
         keymap {
                 compatible = "zmk,keymap";
 
@@ -30,7 +35,7 @@
                         >;
                 };
                 lower_layer {
-                        label = "NUMBER";
+                        label = "ETC";
                         bindings = <
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
     &kp ESC        &kp KP_PLUS   &kp KP_N7     &kp KP_N8     &kp KP_N9     &kp KP_MULTIPLY   &kp C_VOL_UP  &trans        &kp UP        &trans        &trans        &kp BSPC
@@ -141,6 +146,11 @@
             timeout-ms = <50>;
             key-positions = <22 34>;
             bindings = <&kp RBRC>;
+        };
+        combo_layerlock {
+            timeout-ms = <50>;
+            key-positions = <24 38>;
+            bindings = <&tog 1>;
         };
     };
 };
