@@ -27,19 +27,6 @@
               
 combos {
         compatible = "zmk,combos";
-
-#define COMBO(NAME, BINDINGS, KEYPOS, LAYERS) \
-  combo_##NAME { \
-    timeout-ms = <50>; \
-    bindings = <BINDINGS>; \
-    key-positions = <KEYPOS>; \
-    layers = <LAYERS>; \
-  };
-  
-        // FUNCTION KEYS
-        COMBO(F1, &kp F1, 1 13, ETC)
-        COMBO(F2, &kp F2, 2 14, ETC)
-        
         //ção combo
         combo_cs {
             timeout-ms = <50>;
