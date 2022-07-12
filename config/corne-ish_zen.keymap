@@ -133,7 +133,7 @@ combos {
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
     &kp LSHFT       &kp Z         &kp X         &kp C         &kp V         &kp B             &kp N         &kp M         &kp COMMA     &kp DOT       &kp FSLH    &mt RSHFT BSLH
 // ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
-                                                &mo LALT      &mo LCMD      &lt 1 SPACE       &lt 1 SPACE   &mt RCMD RET  &mo RALT
+                                                &mo LALT    &mt LCMD RET   &lt 1 SPACE       &lt 1 SPACE   &mt RCMD RET   &mo RALT
 //                                           ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
 
                         >;
@@ -142,13 +142,13 @@ combos {
                         label = "ETC";
                         bindings = <
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-     &kp ESC       &kp KP_PLUS   &kp KP_N7     &kp KP_N8     &kp KP_N9     &kp KP_MULTIPLY   &kp C_VOL_UP  &bt BT_SEL 1  &kp UP        &none         &bt BT_CLR    &kp BSPC
+     &reset        &kp KP_PLUS   &kp KP_N7     &kp KP_N8     &kp KP_N9     &kp KP_MULTIPLY   &kp C_VOL_UP  &bt BT_SEL 1  &kp UP        &none         &bt BT_CLR    &reset
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-     &reset        &kp KP_MINUS  &kp KP_N4     &kp KP_N5     &kp KP_N6     &kp KP_DIVIDE     &kp C_VOL_DN  &kp LEFT      &kp DOWN      &kp RIGHT     &kp C_BRI_UP  &reset
+     &trans        &kp KP_MINUS  &kp KP_N4     &kp KP_N5     &kp KP_N6     &kp KP_DIVIDE     &kp C_VOL_DN  &kp LEFT      &kp DOWN      &kp RIGHT     &kp C_BRI_UP  &trans
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-     &kp LSHFT     &kp KP_N0     &kp KP_N1     &kp KP_N2     &kp KP_N3     &kp KP_EQUAL      &kp C_MUTE    &kp C_PREV    &kp C_PLAY    &kp C_NEXT    &kp C_BRI_DN  &mo RSHFT
+     &trans        &kp KP_DOT    &kp KP_N1     &kp KP_N2     &kp KP_N3     &kp KP_EQUAL      &kp C_MUTE    &kp C_PREV    &kp C_PLAY    &kp C_NEXT    &kp C_BRI_DN  &trans
 // ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
-                          	                   &mo LALT      &mt LCMD KP_DOT  &trans            &trans    &mt RCMD RET  &mo RALT
+                          	                   &trans       &mt LCMD KP_N0  &trans            &trans      &mt RCMD RET   &trans
 //                                           ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
 
                         >;
