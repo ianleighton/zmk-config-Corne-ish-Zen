@@ -156,9 +156,9 @@ combos {
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
      &trans        &kp KP_MINUS  &kp KP_N4     &kp KP_N5     &kp KP_N6     &kp KP_DIVIDE     &kp C_VOL_DN  &kp LEFT      &kp DOWN      &kp RIGHT     &kp C_BRI_UP  &trans
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-     &trans        &kp KP_DOT    &kp KP_N1     &kp KP_N2     &kp KP_N3     &kp KP_EQUAL      &kp C_MUTE    &kp C_PREV    &kp C_PLAY    &kp C_NEXT    &kp C_BRI_DN  &trans
+     &trans        &kp KP_DOT    &kp KP_N1     &kp KP_N2     &kp KP_N3     &kp KP_N0         &kp C_MUTE    &kp C_PREV    &kp C_PLAY    &kp C_NEXT    &kp C_BRI_DN  &trans
 // ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
-                          	                   &trans       &mt LCMD KP_N0  &trans            &trans      &mt RCMD RET   &trans
+                          	                   &trans       &mt LCMD KP_EQUAL &trans           &trans      &mt RCMD RET   &trans
 //                                           ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
 
                         >;
