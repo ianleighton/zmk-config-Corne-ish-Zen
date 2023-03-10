@@ -152,13 +152,13 @@ combos {
                         label = "NUMNAV";
                         bindings = <
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-     &none         &kp KP_PLUS   &kp KP_N7     &kp KP_N8     &kp KP_N9     &kp KP_MULTIPLY   &kp C_VOL_UP  &bt BT_SEL 0  &kp UP        &none         &bt BT_CLR    &trans
+     &none         &kp KP_PLUS   &kp KP_N7     &kp KP_N8     &kp KP_N9     &kp KP_MULTIPLY   &kp C_VOL_UP  &none         &kp UP        &none         &kp C_BRI_UP  &trans
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-     &none         &kp KP_MINUS  &kp KP_N4     &kp KP_N5     &kp KP_N6     &kp KP_DIVIDE     &kp C_VOL_DN  &kp LEFT      &kp DOWN      &kp RIGHT     &kp C_BRI_UP  &none
+     &none         &kp KP_MINUS  &kp KP_N4     &kp KP_N5     &kp KP_N6     &kp KP_DIVIDE     &kp C_VOL_DN  &kp LEFT      &kp DOWN      &kp RIGHT     &kp C_BRI_DN  &none
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-     &mo 2         &kp KP_DOT    &kp KP_N1     &kp KP_N2     &kp KP_N3     &kp KP_N0         &kp C_MUTE    &kp C_PREV    &kp C_PLAY    &kp C_NEXT    &kp C_BRI_DN  &none
+     &trans        &kp KP_DOT    &kp KP_N1     &kp KP_N2     &kp KP_N3     &kp KP_N0         &kp C_MUTE    &kp C_PREV    &kp C_PLAY    &kp C_NEXT    &none         &kp RSHIFT
 // ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
-                          	                   &trans       &mt LCMD KP_EQUAL &trans           &trans      &mt RCMD RET   &trans
+                          	                   &trans       &mt LCMD KP_EQUAL  &mo 2           &mo 2       &mt RCMD RET  &trans
 //                                           ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
 
                         >;
@@ -167,11 +167,11 @@ combos {
                         label = "FUNC";
                         bindings = <
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-     &trans        &kp KP_PLUS   &kp F7        &kp F8        &kp F9        &kp F12           &kp C_VOL_UP  &bt BT_SEL 0  &kp UP        &none         &bt BT_CLR    &trans
+     &trans        &none         &kp F7        &kp F8        &kp F9        &kp F12           &bt BT_CLR    &none         &kp PAGE_UP   &none         &none         &trans
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-     &trans        &kp KP_MINUS  &kp F4        &kp F5        &kp F6        &kp F11           &kp C_VOL_DN  &kp LEFT      &kp DOWN      &kp RIGHT     &kp C_BRI_UP  &trans
+     &trans        &none         &kp F4        &kp F5        &kp F6        &kp F11           &bt BT_SEL 1  &kp HOME      &kp PAGE_DOWN &kp END       &kp C_BRI_UP  &trans
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-     &trans        &kp KP_DOT    &kp F1        &kp F2        &kp F3        &kp F10           &kp C_MUTE    &kp C_PREV    &kp C_PLAY    &kp C_NEXT    &kp C_BRI_DN  &trans
+     &trans        &none         &kp F1        &kp F2        &kp F3        &kp F10           &bt BT_SEL 0  &kp C_PREV    &kp C_PLAY    &kp C_NEXT    &kp C_BRI_DN  &trans
 // ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
                           	                   &trans       &kp LCMD       &trans              &trans      &mt RCMD RET   &trans
 //                                           ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
