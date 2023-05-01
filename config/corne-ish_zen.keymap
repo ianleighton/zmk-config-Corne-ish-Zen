@@ -151,7 +151,7 @@ combos {
         };
         combo_cao {
             timeout-ms = <50>;
-            key-positions = <9 12 27>;
+            key-positions = <9 12>;
             bindings = <&pt_cao>;
         };
     };       
