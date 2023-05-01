@@ -154,9 +154,9 @@ combos {
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
      &none         &kp KP_PLUS   &kp KP_N7     &kp KP_N8     &kp KP_N9     &kp KP_MULTIPLY   &kp C_VOL_UP  &none         &kp UP        &none         &kp C_BRI_UP  &trans
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-     &none         &kp KP_MINUS  &kp KP_N4     &kp KP_N5     &kp KP_N6     &kp KP_DIVIDE     &kp C_VOL_DN  &kp LEFT      &kp DOWN      &kp RIGHT     &kp C_BRI_DN  &none
+     &mo 2         &kp KP_MINUS  &kp KP_N4     &kp KP_N5     &kp KP_N6     &kp KP_DIVIDE     &kp C_VOL_DN  &kp LEFT      &kp DOWN      &kp RIGHT     &kp C_BRI_DN  &none
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-     &mo 2         &kp KP_DOT    &kp KP_N1     &kp KP_N2     &kp KP_N3     &kp KP_N0         &kp C_MUTE    &kp C_PREV    &kp C_PLAY    &kp C_NEXT    &none         &kp RSHIFT
+     &trans        &kp KP_DOT    &kp KP_N1     &kp KP_N2     &kp KP_N3     &kp KP_N0         &kp C_MUTE    &kp C_PREV    &kp C_PLAY    &kp C_NEXT    &none         &kp RSHIFT
 // ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
                           	                   &trans       &mt LCMD KP_EQUAL  &mo 2           &mo 2       &mt RCMD RET  &trans
 //                                           ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
