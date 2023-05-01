@@ -25,7 +25,7 @@ macros {
                 = <&macro_tap &kp LA(C) &kp LA(N) &kp A &KP O>
                 ;
         };
-}
+};
 
 
 /* Corne-ish Zen key positions
