@@ -24,7 +24,7 @@ macros {
     )
     ZMK_MACRO(pt_coes,
         wait-ms = <30>;
-        tap-ms = <40>;
+        tap-ms = <10>;
         bindings = <&kp LA(C) &kp LA(N) &kp O &kp E &kp S>;
     )
 };
