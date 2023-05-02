@@ -21,10 +21,8 @@ macros {
             label = "PT_ção";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&macro_tap &kp LA(C) &kp LA(N) &kp A &KP O>
-                ;
-        };
+            bindings = <&macro_tap &kp LA(C) &kp LA(N) &kp A &kp O>;
+    };
 };
 
 
@@ -154,7 +152,7 @@ combos {
             key-positions = <9 12>;
             bindings = <&pt_cao>;
         };
-    };       
+};       
               
 
         keymap {
