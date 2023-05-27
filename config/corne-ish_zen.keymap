@@ -27,6 +27,11 @@ macros {
         tap-ms = <10>;
         bindings = <&kp LA(C) &kp LA(N) &kp O &kp E &kp S>;
     )
+    ZMK_MACRO(pt_aas,
+        wait-ms = <30>;
+        tap-ms = <10>;
+        bindings = <&kp LA(GRAVE) &kp A &kp S>;
+    )
 };
 
 
@@ -153,14 +158,19 @@ combos {
         };
         combo_cao {
             timeout-ms = <50>;
-            key-positions = <13 27>;
+            key-positions = <13 27 9>;
             bindings = <&pt_cao>;
         };
         combo_coes {
             timeout-ms = <50>;
-            key-positions = <9 27>;
+            key-positions = <9 27 14>;
             bindings = <&pt_coes>;
         };
+        combo_aas {
+            timeout-ms = <50>;
+            key-positions = <13 14>;
+            bindings = <&pt_aas>;
+        }; 
 };       
               
 
